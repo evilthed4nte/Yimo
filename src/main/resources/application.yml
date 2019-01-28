@@ -5,16 +5,15 @@ server:
 
 spring:
     datasource:
-
 #        type: com.alibaba.druid.pool.DruidDataSource
-        driver-class-name: oracle.jdbc.driver.OracleDriver
-        url: jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 130.36.193.72)(PORT = 1521))(ADDRESS = (PROTOCOL = TCP)(HOST = 130.36.193.72)(PORT = 1521))(FAILOVER=ON)(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = orauz)(FAILOVER_MODE =(TYPE = SELECT)(METHOD = BASIC))))
-        username: YCC
-        password: YCC
-#          driver-class-name: com.mysql.cj.jdbc.Driver
-#          url: jdbc:mysql://127.0.0.1:3306/Springboot
-#          username: root
-#          password: 123456789
+#        driver-class-name: oracle.jdbc.driver.OracleDriver
+#        url: jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 130.36.193.72)(PORT = 1521))(ADDRESS = (PROTOCOL = TCP)(HOST = 130.36.193.72)(PORT = 1521))(FAILOVER=ON)(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = orauz)(FAILOVER_MODE =(TYPE = SELECT)(METHOD = BASIC))))
+#        username: YCC
+#        password: YCC
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: jdbc:mysql://127.0.0.1:3306/Springboot
+          username: root
+          password: 123456789
     thymeleaf:
       cache: false
     devtools:

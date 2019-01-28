@@ -1,4 +1,4 @@
-package com.yimo.Service.User.Impl;
+package com.yimo.Service.Impl;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;

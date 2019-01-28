@@ -1,4 +1,4 @@
-package com.yimo.Service.User.Impl;
+package com.yimo.Service.Impl;
 
 import com.yimo.Dao.PetDao;
 import com.yimo.Model.Pet;
